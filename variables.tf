@@ -2,6 +2,10 @@ variable "vcenter_host" {
   default = ""
 }
 
+variable "test" {
+  type = object({toto: string, test: string, test2: number})
+}
+
 
 variable "vcenter_username" {
   default = ""
