@@ -4,7 +4,7 @@ variable "vcenter_host" {
 
 variable "test" {
   type = object({toto: string, test: string, test2: number})
-  default = {toto: "ttt", test: "titi", test2: "dsf"}
+  default = {toto: "ttt", test: "titi", test2: 10}
 }
 
 
